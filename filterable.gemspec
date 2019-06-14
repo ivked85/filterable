@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version     = Filterable::VERSION
   spec.authors     = ["ivked"]
   spec.email       = ["ivked85@gmail.com"]
-  spec.homepage    = "http://www.topescape.rs"
+  spec.homepage    = "https://github.com/ivked85/filterable"
   spec.summary     = "Easy filtering within controllers"
   spec.description = "Easy filtering within controllers"
   spec.license     = "MIT"

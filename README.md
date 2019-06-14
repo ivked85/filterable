@@ -1,28 +1,35 @@
 # Filterable
-Short description and motivation.
+Easy filtering within controllers
 
 ## Usage
-How to use my plugin.
+In ApplicationController add the following line
+```ruby
+include ::Filterable
+```
+
+then you can use the following in your controllers
+
+```ruby
+filterable_by :param_name, on: :field_name
+```
+
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'filterable'
+gem 'filterable', git: "https://github.com/ivked85/filterable" 
 ```
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 Or install it yourself as:
 ```bash
 $ gem install filterable
 ```
-
-## Contributing
-Contribution directions go here.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
