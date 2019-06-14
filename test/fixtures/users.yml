@@ -1,0 +1,16 @@
+john:
+  name: 'John'
+  city: london
+  eye_color: 'brown'
+richard:
+  name: 'Richard'
+  city: london
+  eye_color: 'blue'
+jean:
+  name: 'Jean'
+  city: 'Paris'
+  eye_color: 'green'
+van:
+  name: 'Van'
+  city: 'Amsterdam'
+  eye_color: 'brown'
